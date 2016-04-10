@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{06DA409C-F0EC-1DB5-3877-7FB55766E73C}") = "cardboard demo", "Assembly-CSharp.csproj", "{F29DDC01-3E53-3051-1C9E-F37DAB8F5741}"
+EndProject
+Project("{06DA409C-F0EC-1DB5-3877-7FB55766E73C}") = "cardboard demo", "Assembly-CSharp-Editor.csproj", "{50721054-211E-6AA4-F4EE-3A635F07074A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F29DDC01-3E53-3051-1C9E-F37DAB8F5741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29DDC01-3E53-3051-1C9E-F37DAB8F5741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29DDC01-3E53-3051-1C9E-F37DAB8F5741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29DDC01-3E53-3051-1C9E-F37DAB8F5741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50721054-211E-6AA4-F4EE-3A635F07074A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50721054-211E-6AA4-F4EE-3A635F07074A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50721054-211E-6AA4-F4EE-3A635F07074A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50721054-211E-6AA4-F4EE-3A635F07074A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
