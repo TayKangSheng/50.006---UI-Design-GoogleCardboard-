@@ -58,7 +58,9 @@
      <Compile Include="Assets\Cardboard\Scripts\CardboardPreRender.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
      <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\MouseDrag.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\ResizeOnWheel.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoRenderEffect.cs" />
      <Compile Include="Assets\Cardboard\Scripts\UI\CardboardGaze.cs" />
@@ -70,7 +72,9 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseVRDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\LookAtCameraYonly.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <None Include="Assets\Cardboard\Silhouette-Outlined Diffuse.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
