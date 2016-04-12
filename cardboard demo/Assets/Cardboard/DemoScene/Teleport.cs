@@ -17,8 +17,7 @@ using System.Collections;
 
 [RequireComponent(typeof(Collider))]
 public class Teleport : MonoBehaviour, ICardboardGazeResponder {
-  private Vector3 startingPosition;
-
+  	private Vector3 startingPosition;
   void Start() {
     startingPosition = transform.localPosition;
     SetGazedAt(false);
@@ -32,7 +31,8 @@ public class Teleport : MonoBehaviour, ICardboardGazeResponder {
   }
 
   public void SetGazedAt(bool gazedAt) {
-    GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
+		GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
+		//for (i=0;if<=
   }
 
   public void Reset() {
@@ -86,7 +86,8 @@ public class Teleport : MonoBehaviour, ICardboardGazeResponder {
   // Called when the Cardboard trigger is used, between OnGazeEnter
   /// and OnGazeExit.
   public void OnGazeTrigger() {
-    TeleportRandomly();
+    //TeleportRandomly();
+	//this.transform.position = eventData.position;
   }
 
   #endregion

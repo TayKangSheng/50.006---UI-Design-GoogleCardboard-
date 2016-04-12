@@ -1,24 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-[RequireComponent(typeof(MeshCollider))]
-public class MouseDrag : MonoBehaviour {
+using UnityEngine.EventSystems;
 
+public class MouseDrag : MonoBehaviour, IDragHandler {
 
-	public Camera cameraToLookAt;
-	private Vector3 screenPoint;
-	private Vector3 offset;
+	#region IDragHandler implementation
 
-	void OnMouseDown(){
-		screenPoint = cameraToLookAt.WorldToScreenPoint(gameObject.transform.position);
-
-		offset = gameObject.transform.position - cameraToLookAt.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
-
+	public void OnDrag (PointerEventData eventData)
+	{
+		Debug.Log ("OnBeginDrag");
+		this.transform.position = eventData.position;
 	}
 
-	void OnMouseDrag(){
-		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
-
-		Vector3 curPosition = cameraToLookAt.ScreenToWorldPoint(curScreenPoint)+offset;
-		transform.position = curPosition;
-	}
+	#endregion
 }
